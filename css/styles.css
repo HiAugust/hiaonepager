@@ -1,0 +1,140 @@
+body { 
+	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-size: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1, h2, h3 { 
+	margin: 0;
+	padding: 0;
+}
+p {
+	color: #000;
+}
+span {
+	font-weight: bold;
+}
+img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+address {
+	font-style: normal;
+}
+.clear {
+	overflow: auto;
+}
+
+.container p {
+	color: #000;
+	font-size: 14px;
+}
+.container h2 {
+	color: #000;
+	font-size: 36px;
+	margin: 54px 0;
+}
+
+.row-box {
+	position: relative;
+	display: block;
+	width: 100%;
+	clear: left;
+}
+.col {
+	float: left;
+	width: 50%;
+}
+
+/* Style for Nav Bar */
+#nav {
+	display: block;
+	position: relative;
+	margin-bottom: 40px; 
+	color: #373a3c;
+}
+#nav .logo { 
+	float: left; 
+}
+#nav .nav-list { 
+	float: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+#nav .nav-list a { 
+	color: #000;
+}
+ul.navbar {
+	display: block;
+	text-align: right;
+	margin: 15% 0 0 0;
+}
+.navbar li {
+	font-size: 16px;
+	display: inline;
+	margin-right: 23px;
+}
+
+/*Introduction banner box */
+
+.banner {
+	background-color: #009ddc;
+	padding: 20px 40px;
+}
+
+.banner h1 {
+	font-size: 64px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+.banner p {
+	font-size: 22px;
+	color: #000;
+	font-weight: 200;
+}
+
+/* Styling for blog box */
+
+.blog-content {
+	position: relative;
+	display: block;
+	width: 100%;
+	clear: left;
+}
+
+.blog-content .image-container {
+	float: left;
+	width: 36%;
+	margin-right: 5%;
+}
+.blog-content .image-container img {
+	width: 100%;
+}
+.blog-content .post-container {
+	float: left;
+	width: 40%;
+}
+
+/* Styling for HTML blog table */
+table.table-content { 
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: red;
+}
+table.table-content td {
+	padding: 0 5% 0 0;
+	vertical-align: top;
+}
+table.table-content img {
+	width: 100%;
+} 
+
+/* Styling for HTML contact box */
+#contact a {
+  color: #07aeda;
+  text-decoration: none;
+}
