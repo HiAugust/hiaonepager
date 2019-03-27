@@ -23,15 +23,6 @@ a {
 address {
 	font-style: normal;
 }
-.hero-image {
-  background-image: url("http://clipart-library.com/images/8TxrbAyac.jpg");
-  background-color: #009ddc;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-}
 .clear {
 	overflow: auto;
 }
@@ -97,7 +88,7 @@ ul.navbar {
 	font-size: 64px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #009ddc;
+	color: #fff;
 }
 .banner p {
 	font-size: 22px;
@@ -107,23 +98,22 @@ ul.navbar {
 
 /* Styling for blog box */
 
-.product-content {
+.blog-content {
 	position: relative;
 	display: block;
 	width: 100%;
 	clear: left;
 }
 
-.product-content .image-container {
+.blog-content .image-container {
 	float: left;
-	display: block;
-	width: 50%;
+	width: 36%;
 	margin-right: 5%;
 }
-.product-content .image-container img {
+.blog-content .image-container img {
 	width: 100%;
 }
-.product-content .post-container {
+.blog-content .post-container {
 	float: left;
 	width: 40%;
 }
